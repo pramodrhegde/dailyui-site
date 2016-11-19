@@ -1,0 +1,29 @@
+{
+  "name": "dailyui",
+  "description": "daily ui site",
+  "main": "index.html",
+  "authors": [
+    "Pramod"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "daily",
+    "ui",
+    "site"
+  ],
+  "homepage": "dailyui.surge.sh",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~5.0.0"
+  }
+}
