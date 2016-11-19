@@ -1,0 +1,9 @@
+{
+  "name": "dailyui",
+  "version": "0.0.0",
+  "description": "daily ui site",
+  "main": "index.html",
+  "repository": "dailyui-site",
+  "author": "Pramod",
+  "license": "MIT"
+}
