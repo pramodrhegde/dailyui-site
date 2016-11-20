@@ -44,14 +44,14 @@ module.exports = function(grunt) {
     // Uglify
     uglify: {
       dist: {
-        src: 'js/main.js',
+        src: 'dist/js/main.js',
         dest: 'dist/js/main.min.js'
       },
     },
 
     // Clean
     clean: {
-      build: ['css', 'js', 'images']
+      build: ['css', 'js']
     },
 
     // Notify

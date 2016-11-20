@@ -27,15 +27,35 @@
     </div>
 
     <div class="card-container">
-      <div class="card">
-        <span class="counter" data-content="00">1</span>
-        <p class="image-name pull-right">Sign Up</p>
-        <img src="https://res.cloudinary.com/prazor9/image/upload/v1479409515/Daily_UI_001_wyl0a4.jpg" alt="image-name" class="card-image img-responsive">
-        <p class="description">It was my concept for sign up page design for Mars trip.</p>
+
+    </div>
+
+    <div class="modal fade" id="fullScreenModal" tabindex="-1" role="dialog" aria-labelledby="fullScreenModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="javascript:void(0);" class="back-link">Go Back</a>
+          <img src="" alt="fullscreen image" class="img-responsive"/>
+        </div>
       </div>
     </div>
+
   </div>
   <script src="./vendors/jquery/dist/jquery.min.js"></script>
   <script src="./vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./vendors/handlebars/handlebars.min.js"></script>
+  <script id="cards-template" type="text/x-handlebars-template">
+		{{#data}}
+      <div class="card clearfix">
+        <span class="counter" data-content="{{prefixCount day}}"}>{{addOne @index}}</span>
+        <p class="image-name pull-right">{{name}}</p>
+        <img id="{{ref}}"
+              src="{{image}}"
+              alt="{{name}}" class="card-image img-responsive">
+        <p class="description">{{description}}</p>
+      </div>
+		{{/data}}
+	</script>
+
+  <script src="./dist/js/main.js"></script>
 </body>
 </html>

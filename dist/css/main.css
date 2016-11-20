@@ -32,9 +32,11 @@ h1 {
   max-width: 1200px;
   margin: 0px auto;
   padding: 15px 15px;
-  background-image: url("../../images/bar.png"), url("../../images/bar.png"), url("../../images/bar.png");
-  background-repeat: repeat-y, repeat-y, repeat-y;
-  background-position: 1% top, 50% top, 99% top;
+  background-image: url("../../images/bar.png"), url("../../images/bar.png"), url("../../images/bar.png"), url("../../images/bar.png"), url("../../images/bar.png");
+  background-repeat: repeat-y;
+  background-position: 1% top, 25% top, 50% top, 75% top, 99% top;
+  background-attachment: scroll;
+  background-size: auto;
 }
 
 .hero-section {
@@ -96,6 +98,20 @@ h1 {
 }
 .card-container .card .counter {
   display: inline-block;
+  font-size: 34px;
+  font-weight: 900;
+  color: #555;
+  position: relative;
+  opacity: 0.2;
+  line-height: 0;
+  padding-left: 30px;
+}
+.card-container .card .counter:after {
+  content: attr(data-content);
+  position: absolute;
+  left: 0;
+  top: 0px;
+  font-size: 20px;
 }
 .card-container .card .image-name {
   display: inline-block;
@@ -114,4 +130,31 @@ h1 {
   opacity: 1;
   box-shadow: 0px 20px 40px 0 rgba(17, 20, 25, 0.4);
   transition: all 0.2s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+#fullScreenModal {
+  background: #111419;
+}
+#fullScreenModal .modal-dialog {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#fullScreenModal .modal-dialog .modal-content {
+  border-radius: 0;
+  background: inherit;
+  padding: 50px 15px 0;
+  box-shadow: none;
+  border: none;
+  color: #fafafa;
+}
+#fullScreenModal .modal-dialog .modal-content img {
+  margin: 25px auto;
+  box-shadow: 0 25px 50px 0 #000000;
+}
+#fullScreenModal .modal-dialog .modal-content a.back-link {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
 }

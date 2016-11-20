@@ -1,0 +1,704 @@
+{
+  "data": [
+    {
+      "day": "001",
+      "name": "Sign Up",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409515/Daily_UI_001_wyl0a4.jpg",
+      "ref": "Daily_UI_001_wyl0a4",
+      "description": "It was my concept for sign up page design for Mars trip."
+    },
+    {
+      "day": "002",
+      "name": "Credit Card Checkout",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409876/Daily_UI_002_om68zc.jpg",
+      "ref": "Daily_UI_002_om68zc",
+      "description": "How Bruce Wayne UI would look for his purchase checkout (I know batman would never use this! :P)"
+    },
+    {
+      "day": "003",
+      "name": "Landing Page (above the fold)",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409880/Daily_UI_003_vsmahy.jpg",
+      "ref": "Daily_UI_003_vsmahy",
+      "description": "Simple concept for a movie landing page."
+    },
+    {
+      "day": "004",
+      "name": "Calculator",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409889/Daily_UI_004_qs1qel.jpg",
+      "ref": "Daily_UI_004_qs1qel",
+      "description": "Calculator UI concept with some experiments with operation buttons. (always good to differentiate them from numbers)"
+    },
+    {
+      "day": "005",
+      "name": "App Icon",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409895/Daily_UI_005_k8zsi4.jpg",
+      "ref": "Daily_UI_005_k8zsi4",
+      "description": "Tried a simple app icon for a Analytics app."
+    },
+    {
+      "day": "006",
+      "name": "User Profile",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409903/Daily_UI_006_izmrof.jpg",
+      "ref": "Daily_UI_006_izmrof",
+      "description": "We here in india are obsessed with cricket! so this has to be there profile cards."
+    },
+    {
+      "day": "007",
+      "name": "Settings",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409910/Daily_UI_007_tkhxqs.jpg",
+      "ref": "Daily_UI_007_tkhxqs",
+      "description": "Had to do something related to dribble, so this was concept for dribble mobile app settings (If there was one! ;))"
+    },
+    {
+      "day": "008",
+      "name": "404 page",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409917/Daily_UI_008_pjzk3c.jpg",
+      "ref": "Daily_UI_008_pjzk3c",
+      "description": "Who doesn't love Matrix!?. this page would freeze 404 bullets like Neo does! woow so cool :D"
+    },
+    {
+      "day": "009",
+      "name": "Music Player",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409927/Daily_UI_009_a1jaqh.jpg",
+      "ref": "Daily_UI_009_a1jaqh",
+      "description": "Music Player for my favourite track at that time!"
+    },
+    {
+      "day": "010",
+      "name": "Social Share",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409930/Daily_UI_010_mqvlof.jpg",
+      "ref": "Daily_UI_010_mqvlof",
+      "description": "I am a game freak! so this was a social share card design for my favourite game COD achievements."
+    },
+    {
+      "day": "011",
+      "name": "Flash Message (Error/Success)",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409939/Daily_UI_011_jqfofc.jpg",
+      "ref": "Daily_UI_011_jqfofc",
+      "description": "It was EURO time then and had to do something related to CR7. this was for any CR7 fan. (ultimately portugal won EUROS yeay!!!)"
+    },
+    {
+      "day": "012",
+      "name": "E-Commerce Shop (Single Item)",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409945/Daily_UI_012_mzeo0j.jpg",
+      "ref": "Daily_UI_012_mzeo0j",
+      "description": "My favourite time beast! this one for da Vinci."
+    },
+    {
+      "day": "013",
+      "name": "Direct Messaging",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409958/Daily_UI_013_s7mpb6.jpg",
+      "ref": "Daily_UI_013_s7mpb6",
+      "description": "Messaging for suicide squad members (joker seems to be pissed off :P)"
+    },
+    {
+      "day": "014",
+      "name": "Countdown Timer",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409962/Daily_UI_014_hyxcwf.jpg",
+      "ref": "Daily_UI_014_hyxcwf",
+      "description": "Countdown timer for Roland Garros kick-off."
+    },
+    {
+      "day": "015",
+      "name": "On/Off Switch",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409966/Daily_UI_015_cr3kvi.jpg",
+      "ref": "Daily_UI_015_cr3kvi",
+      "description": "We always want to keep alarm but off switch is very important :)"
+    },
+    {
+      "day": "016",
+      "name": "Pop-Up / Overlay",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409972/Daily_UI_016_yutxsb.jpg",
+      "ref": "Daily_UI_016_yutxsb",
+      "description": "I didn't like bookmyshow rating overlay ( but i still love you guys! ), so I designed my version."
+    },
+    {
+      "day": "017",
+      "name": "Email Receipt",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409983/Daily_UI_017_msqt3g.jpg",
+      "ref": "Daily_UI_017_msqt3g",
+      "description": "I ordered one while designing this, this is how I would like to recieve my receipt."
+    },
+    {
+      "day": "018",
+      "name": "Analytics Chart",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409989/Daily_UI_018_mirxl2.jpg",
+      "ref": "Daily_UI_018_mirxl2",
+      "description": "Damn someone need to track this time we waste!. my version of the analysis for time spent on social media (sorry time wasted on it should be!)"
+    },
+    {
+      "day": "019",
+      "name": "Leaderboard",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479409995/Daily_UI_019_vxkvtt.jpg",
+      "ref": "Daily_UI_019_vxkvtt",
+      "description": "One more for the love of cricket."
+    },
+    {
+      "day": "020",
+      "name": "Location Tracker",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410004/Daily_UI_020_ffcn4a.jpg",
+      "ref": "Daily_UI_020_ffcn4a",
+      "description": "This was a location tracker concept using nearby landmakrs."
+    },
+    {
+      "day": "021",
+      "name": "Home Monitoring Dashboard",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410012/Daily_UI_021_mzxtdv.jpg",
+      "ref": "Daily_UI_021_mzxtdv",
+      "description": "Home monitoring dashboard with go green theme."
+    },
+    {
+      "day": "022",
+      "name": "Search",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410018/Daily_UI_022_jbsktv.jpg",
+      "ref": "Daily_UI_022_jbsktv",
+      "description": "I had to come up with something for this, didn't think of anything and went for obvious, movies search!."
+    },
+    {
+      "day": "023",
+      "name": "Onboarding",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410026/Daily_UI_023_f3gldr.jpg",
+      "ref": "Daily_UI_023_f3gldr",
+      "description": "Onboarding for a wallet app concept."
+    },
+    {
+      "day": "024",
+      "name": "Boarding Pass",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410035/Daily-UI-_024_f0unur.jpg",
+      "ref": "Daily-UI-_024_f0unur",
+      "description": "Flight boarding pass concept. simple, clean."
+    },
+    {
+      "day": "025",
+      "name": "TV App",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410044/Daily-UI-_025_xldldw.jpg",
+      "ref": "Daily-UI-_025_xldldw",
+      "description": "I would love to use my TV for gamings so I would be looking for such apps. this was a concept for one of them."
+    },
+    {
+      "day": "026",
+      "name": "Subscribe",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410050/Daily-UI-_026_fopskp.jpg",
+      "ref": "Daily-UI-_026_fopskp",
+      "description": "Blogs will come into mind when we say subscribe! this was a concept for one of such blogs (my favourite)."
+    },
+    {
+      "day": "027",
+      "name": "Dropdown",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410057/Daily-UI-_027_dq8emf.jpg",
+      "ref": "Daily-UI-_027_dq8emf",
+      "description": "Again didn't think of anything so went for fresh concept listing my favourite fruits in dropdown."
+    },
+    {
+      "day": "028",
+      "name": "Contact Us",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410064/Daily_UI_028_kjdqfd.jpg",
+      "ref": "Daily_UI_028_kjdqfd",
+      "description": "Thought of doing some sophasticated contact page so tried my bit with this."
+    },
+    {
+      "day": "029",
+      "name": "Map",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410070/Daily-UI-_029_oh3wps.jpg",
+      "ref": "Daily-UI-_029_oh3wps",
+      "description": "for me madrid derby is more than el clasico, it was a special map for one such event, also it was my first try on perspective mockups."
+    },
+    {
+      "day": "030",
+      "name": "Pricing",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410077/Daily_UI_30_evxmgq.jpg",
+      "ref": "Daily_UI_30_evxmgq",
+      "description": "Pricing table concept for online bike rental portal."
+    },
+    {
+      "day": "031",
+      "name": "File Upload",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410088/Daily_UI_031_fna3gz.jpg",
+      "ref": "Daily_UI_031_fna3gz",
+      "description": "File uploader concept for designers!.(only designers i would say :D)"
+    },
+    {
+      "day": "032",
+      "name": "Crowdfunding Campaign",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410098/Daily_UI_032_pnjd3n.jpg",
+      "ref": "Daily_UI_032_pnjd3n",
+      "description": "In Bangaluru (my city) due to urbanization these little cute birds are disappearing quickly. it was a design for Crowdfunding for saving these birds initiative."
+    },
+    {
+      "day": "033",
+      "name": "Customize Product",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410103/Daily_UI_033_zc34cx.jpg",
+      "ref": "Daily_UI_033_zc34cx",
+      "description": "It is a hastle booking pizzas in dominos site (while I was doing this. dont know now :P) so redesigned product customize page."
+    },
+    {
+      "day": "034",
+      "name": "Car Interface",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410113/Daily_UI_034_p2nera.jpg",
+      "ref": "Daily_UI_034_p2nera",
+      "description": "Car Interface design sounds very challenging, this was simple concept for car controll app in your mobile device (It had to be porche)."
+    },
+    {
+      "day": "035",
+      "name": "Blog Post",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410122/Daily_UI_035_jp6e5r.jpg",
+      "ref": "Daily_UI_035_jp6e5r",
+      "description": "As picture depicts it was for my all time favourite player. simple, clean blog design."
+    },
+    {
+      "day": "036",
+      "name": "Special Offer",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410130/Daily_UI_036_qd8kb2.jpg",
+      "ref": "Daily_UI_036_qd8kb2",
+      "description": "Couldn't have been better choice for special offers. concept for E-Commerce site."
+    },
+    {
+      "day": "037",
+      "name": "Weather",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410139/Daily_UI_037_wbma5w.jpg",
+      "ref": "Daily_UI_037_wbma5w",
+      "description": "Weather app concept for selected places around the world."
+    },
+    {
+      "day": "038",
+      "name": "Calendar",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410144/Daily_UI_038_xwszoq.jpg",
+      "ref": "Daily_UI_038_xwszoq",
+      "description": "Calendar design simple but colorful."
+    },
+    {
+      "day": "039",
+      "name": "Testimonials",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410152/Daily_UI_039_ke8pxv.jpg",
+      "ref": "Daily_UI_039_ke8pxv",
+      "description": "For new BMW i8 testimonials by Leicester city players (who actually were gifted by the club for winning EPL :P)."
+    },
+    {
+      "day": "040",
+      "name": "Recipe",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410157/Daily_UI_040_twmnjv.jpg",
+      "ref": "Daily_UI_040_twmnjv",
+      "description": "Karnataka special Masale Dose recipe concept."
+    },
+    {
+      "day": "041",
+      "name": "Workout Tracker",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410164/Daily_UI_041_lyf4am.jpg",
+      "ref": "Daily_UI_041_lyf4am",
+      "description": "Daily workout tracker app dashboard concept."
+    },
+    {
+      "day": "042",
+      "name": "ToDo List",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410169/Daily_UI_042_o58cvk.jpg",
+      "ref": "Daily_UI_042_o58cvk",
+      "description": "simple todo app concept."
+    },
+    {
+      "day": "043",
+      "name": "Food/Drink Menu",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410176/Daily_UI_043_ys5741.jpg",
+      "ref": "Daily_UI_043_ys5741",
+      "description": "It was a modern concept for selecting food/drink only site."
+    },
+    {
+      "day": "044",
+      "name": "Favorites",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410184/Daily_UI_044_qg8ajc.jpg",
+      "ref": "Daily_UI_044_qg8ajc",
+      "description": "My favourite shows page concept for Netflix."
+    },
+    {
+      "day": "045",
+      "name": "Info Card",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410189/Daily_UI_045_gqqk7y.jpg",
+      "ref": "Daily_UI_045_gqqk7y",
+      "description": "Info on famous Bengal Tiger ui concept."
+    },
+    {
+      "day": "046",
+      "name": "Invoice",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410195/Daily_UI_046_bdgjc5.jpg",
+      "ref": "Daily_UI_046_bdgjc5",
+      "description": "iPhone 6 purchase receipt concept."
+    },
+    {
+      "day": "047",
+      "name": "Activity Feed",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410205/Daily_UI_047_vgmlcw.jpg",
+      "ref": "Daily_UI_047_vgmlcw",
+      "description": "It was a concept for tracking your friends activity feeds in games."
+    },
+    {
+      "day": "048",
+      "name": "Coming Soon",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410209/Daily_UI_048_chh2v5.jpg",
+      "ref": "Daily_UI_048_chh2v5",
+      "description": "Highly anticipated Battlefiled 1 was ready to release while designing this."
+    },
+    {
+      "day": "049",
+      "name": "Notifications",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410218/Daily-UI-_049_sojwu8.gif",
+      "ref": "Daily-UI-_049_sojwu8",
+      "description": "My first try in animated mockups, simple enough to show notifications :P."
+    },
+    {
+      "day": "050",
+      "name": "Job Listing",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410227/Daily_UI_050_pptowf.jpg",
+      "ref": "Daily_UI_050_pptowf",
+      "description": "Job listing dashboard for designers."
+    },
+    {
+      "day": "051",
+      "name": "Press Page",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410235/Daily_UI_051_qn60py.jpg",
+      "ref": "Daily_UI_051_qn60py",
+      "description": "One for Playstation VR with little bit of stylish looks."
+    },
+    {
+      "day": "052",
+      "name": "Logo Design",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410240/Daily_UI_052_v373x0.jpg",
+      "ref": "Daily_UI_052_v373x0",
+      "description": "Logo design for Daily UI site."
+    },
+    {
+      "day": "053",
+      "name": "Header Navigation",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410246/Daily_UI_053_odwb89.jpg",
+      "ref": "Daily_UI_053_odwb89",
+      "description": "Header navs for awesomr cars around world with a little different approach."
+    },
+    {
+      "day": "054",
+      "name": "Confirmation",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410254/Daily_UI_054_lcjbcx.jpg",
+      "ref": "Daily_UI_054_lcjbcx",
+      "description": "Restaurant booking confirmation page design concept."
+    },
+    {
+      "day": "055",
+      "name": "Icon Set",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410258/Daily_UI_055_wnmbpe.jpg",
+      "ref": "Daily_UI_055_wnmbpe",
+      "description": "Hand made icons for media player controls."
+    },
+    {
+      "day": "056",
+      "name": "Breadcrumbs",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410268/Daily_UI_056_v3r3mn.jpg",
+      "ref": "Daily_UI_056_v3r3mn",
+      "description": "Breadcrumbs using color separators."
+    },
+    {
+      "day": "057",
+      "name": "Video Player",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410276/Daily_UI_057_aduigq.jpg",
+      "ref": "Daily_UI_057_aduigq",
+      "description": "Video player concept using hand made icons done in previous challenge."
+    },
+    {
+      "day": "058",
+      "name": "Shopping Cart",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410278/Daily_UI_058_wzgfnl.jpg",
+      "ref": "Daily_UI_058_wzgfnl",
+      "description": "shopping card concept using bold and bright colors."
+    },
+    {
+      "day": "059",
+      "name": "Background Pattern",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410284/Daily_UI_059_v6pz9g.jpg",
+      "ref": "Daily_UI_059_v6pz9g",
+      "description": "Colorful background pattern for everyday use :D."
+    },
+    {
+      "day": "060",
+      "name": "Color Picker",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410301/Daily_UI_060_gkdsbu.jpg",
+      "ref": "Daily_UI_060_gkdsbu",
+      "description": "This is one of favourites. concept for color picker app."
+    },
+    {
+      "day": "061",
+      "name": "Redeem Coupon",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410307/Daily_UI_061_mjkocs.jpg",
+      "ref": "Daily_UI_061_mjkocs",
+      "description": "Redeem yours now, yummy!."
+    },
+    {
+      "day": "062",
+      "name": "Workout of the Day",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410314/Daily_UI_062_zshclp.jpg",
+      "ref": "Daily_UI_062_zshclp",
+      "description": "Playing with gradients and fonts, concept for workout app."
+    },
+    {
+      "day": "063",
+      "name": "Best of 2015",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410323/Daily_UI_063_wdxvmr.jpg",
+      "ref": "Daily_UI_063_wdxvmr",
+      "description": "Well this one would go into my desktop, concept for desktop app."
+    },
+    {
+      "day": "064",
+      "name": "Select User Type",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410327/Daily_UI_064_u7abml.jpg",
+      "ref": "Daily_UI_064_u7abml",
+      "description": "Player type select concept for a poker game probably ;)."
+    },
+    {
+      "day": "065",
+      "name": "Notes Widget",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410334/Daily_UI_065_k6chyu.jpg",
+      "ref": "Daily_UI_065_k6chyu",
+      "description": "Simple note taker widget concept."
+    },
+    {
+      "day": "066",
+      "name": "Statistics",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410339/Daily_UI_066_hfgved.jpg",
+      "ref": "Daily_UI_066_hfgved",
+      "description": "Viewer stats concept for my favourite show friends!."
+    },
+    {
+      "day": "067",
+      "name": "Hotel Booking",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410345/Daily_UI_067_ghhus5.jpg",
+      "ref": "Daily_UI_067_ghhus5",
+      "description": "Hotel booking site concept."
+    },
+    {
+      "day": "068",
+      "name": "Flight Search",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410350/Daily_UI_068_kcvrp0.jpg",
+      "ref": "Daily_UI_068_kcvrp0",
+      "description": "Online Flight booking landing page design concept."
+    },
+    {
+      "day": "069",
+      "name": "Trending",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410357/Daily_UI_069_dngmwk.jpg",
+      "ref": "Daily_UI_069_dngmwk",
+      "description": "Whats hot now gaming headsets well I got this!."
+    },
+    {
+      "day": "070",
+      "name": "Event Listing",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410362/Daily_UI_070_pwxnmk.jpg",
+      "ref": "Daily_UI_070_pwxnmk",
+      "description": "Listing events around you app UI concept."
+    },
+    {
+      "day": "071",
+      "name": "Schedule",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410368/Daily_UI_071_vlhahm.jpg",
+      "ref": "Daily_UI_071_vlhahm",
+      "description": "personal schedule handler widget concept."
+    },
+    {
+      "day": "072",
+      "name": "Image Slider",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410376/Daily_UI_072_go3zzx.jpg",
+      "ref": "Daily_UI_072_go3zzx",
+      "description": "colorful image slider concept for a worthy red hot ducati super bike."
+    },
+    {
+      "day": "073",
+      "name": "Virtual Reality",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410380/Daily_UI_073_zgc8m7.jpg",
+      "ref": "Daily_UI_073_zgc8m7",
+      "description": "Virtual reality in future app concept. well this will be very usefull than google maps"
+    },
+    {
+      "day": "074",
+      "name": "Download App",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410385/Daily_UI_074_xav2uy.jpg",
+      "ref": "Daily_UI_074_xav2uy",
+      "description": "Download app landing page concept."
+    },
+    {
+      "day": "075",
+      "name": "Pre-Order",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410399/Daily_UI_075_pviifd.jpg",
+      "ref": "Daily_UI_075_pviifd",
+      "description": "Well this one goes for FIFA17. I would never pre-order anything in my life, but only this one hell ya!"
+    },
+    {
+      "day": "076",
+      "name": "Loading...",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410407/Daily-UI-_076_n7gbwh.gif",
+      "ref": "Daily-UI-_076_n7gbwh",
+      "description": "Well loading always depicts time taken so this loader depicts that wonderfuly! :D"
+    },
+    {
+      "day": "077",
+      "name": "Thank You",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410412/Daily_UI_077_tlydgp.jpg",
+      "ref": "Daily_UI_077_tlydgp",
+      "description": "Thank you page design."
+    },
+    {
+      "day": "078",
+      "name": "Pending Invitation",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410419/Daily_UI_078_nhznz7.jpg",
+      "ref": "Daily_UI_078_nhznz7",
+      "description": "Didn't find anything else so I thought of Joker!."
+    },
+    {
+      "day": "079",
+      "name": "Itinerary",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410429/Daily_UI_079_bi4hsi.jpg",
+      "ref": "Daily_UI_079_bi4hsi",
+      "description": "Holiday itinerary app concept."
+    },
+    {
+      "day": "080",
+      "name": "Date Picker",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410441/Daily_UI_080_id4gu0.jpg",
+      "ref": "Daily_UI_080_id4gu0",
+      "description": "Date picker widget concept."
+    },
+    {
+      "day": "081",
+      "name": "Status Update",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410449/Daily_UI_081_xf0j0v.jpg",
+      "ref": "Daily_UI_081_xf0j0v",
+      "description": "Well this one was narcos effect! :P"
+    },
+    {
+      "day": "082",
+      "name": "Form",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410454/Daily_UI_082_xwefnl.jpg",
+      "ref": "Daily_UI_082_xwefnl",
+      "description": "Simple form concept."
+    },
+    {
+      "day": "083",
+      "name": "Button",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410460/Daily_UI_083_jwrkcj.jpg",
+      "ref": "Daily_UI_083_jwrkcj",
+      "description": "4-D button :D"
+    },
+    {
+      "day": "084",
+      "name": "Badge",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410470/Daily-UI-_084_eetxgr.jpg",
+      "ref": "Daily-UI-_084_eetxgr",
+      "description": "Well my first ever badge design!!!"
+    },
+    {
+      "day": "085",
+      "name": "Pagination",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410479/Daily_UI_085_entnyf.jpg",
+      "ref": "Daily_UI_085_entnyf",
+      "description": "Simple pagination for movies list for IMDB mobile app."
+    },
+    {
+      "day": "086",
+      "name": "Progress Bar",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410487/Daily_UI_086_qcv4ak.jpg",
+      "ref": "Daily_UI_086_qcv4ak",
+      "description": "Well one more of my favourite list!. Progress bar for a maze game concept. so cool!"
+    },
+    {
+      "day": "087",
+      "name": "Tooltip",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410493/Daily_UI_087_ewqdkl.jpg",
+      "ref": "Daily_UI_087_ewqdkl",
+      "description": "Little over detailed for a tootip. still a concept for tooltip design."
+    },
+    {
+      "day": "088",
+      "name": "Avatar",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410501/Daily-UI-_088_sdmueg.jpg",
+      "ref": "Daily-UI-_088_sdmueg",
+      "description": "Avatar design for any random app."
+    },
+    {
+      "day": "089",
+      "name": "Terms of Service",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410509/Daily_UI_89_vsmcep.jpg",
+      "ref": "Daily_UI_89_vsmcep",
+      "description": "Google terms of service UI design."
+    },
+    {
+      "day": "090",
+      "name": "Create New",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410518/Daily_UI_090_ijv5yj.jpg",
+      "ref": "Daily_UI_090_ijv5yj",
+      "description": "Create new order concept for online food order site."
+    },
+    {
+      "day": "091",
+      "name": "Curated For You",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410525/Daily_UI_091_ruis7q.jpg",
+      "ref": "Daily_UI_091_ruis7q",
+      "description": "Here goes my best of work here in 100 days according to me. curated movie list design concept."
+    },
+    {
+      "day": "092",
+      "name": "F.A.Q.",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410529/Daily_UI_092_qdqi3s.jpg",
+      "ref": "Daily_UI_092_qdqi3s",
+      "description": "FAQ page design concept for steam a gaming platform."
+    },
+    {
+      "day": "093",
+      "name": "Splash Screen",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410536/Daily_UI_093_drjqcs.jpg",
+      "ref": "Daily_UI_093_drjqcs",
+      "description": "Splash screen for a mobile app concept."
+    },
+    {
+      "day": "094",
+      "name": "News",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410542/Daily_UI_094_qlys94.jpg",
+      "ref": "Daily_UI_094_qlys94",
+      "description": "News site landing page design concept."
+    },
+    {
+      "day": "095",
+      "name": "Product Tour",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410549/Daily_UI_095_xdkvbf.jpg",
+      "ref": "Daily_UI_095_xdkvbf",
+      "description": "Product tour for chromecast by google, a concept."
+    },
+    {
+      "day": "096",
+      "name": "Currently In-Stock",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410587/Daily_UI_096_z5qmmu.jpg",
+      "ref": "Daily_UI_096_z5qmmu",
+      "description": "Well new pixel from was out of stock while designing this :P."
+    },
+    {
+      "day": "097",
+      "name": "Giveaway",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410594/Daily_UI_097_ee77rn.jpg",
+      "ref": "Daily_UI_097_ee77rn",
+      "description": "Fan jersey giveaway ui concept."
+    },
+    {
+      "day": "098",
+      "name": "Advertisement",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410601/Daily_UI_098_mar4le.jpg",
+      "ref": "Daily_UI_098_mar4le",
+      "description": "Landing page design concept for promoting koenigsegg regera."
+    },
+    {
+      "day": "099",
+      "name": "Categories",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410608/Daily_UI_099_o1fhzn.jpg",
+      "ref": "Daily_UI_099_o1fhzn",
+      "description": "Categories concept for photo gallary app for selected holiday destinations."
+    },
+    {
+      "day": "100",
+      "name": "Redesign Daily UI Landing Page",
+      "image": "https://res.cloudinary.com/prazor9/image/upload/v1479410625/shot_hj1q9m.png",
+      "ref": "shot_hj1q9m",
+      "description": "Here goes the last one but not the least. landing page of DailyUI redesigned."
+    }
+  ]
+}
