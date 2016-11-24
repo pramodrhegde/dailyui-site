@@ -28,7 +28,7 @@ h1 {
 
 .main {
   width: 100%;
-  height: 100vh;
+  min-height: 100%;
   max-width: 1200px;
   margin: 0px auto;
   padding: 15px 15px;
@@ -42,15 +42,37 @@ h1 {
 .hero-section {
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .hero-section header {
+    float: left;
+  }
+}
 .hero-section > button {
   margin: 15px 0 10px;
+}
+@media screen and (min-width: 768px) {
+  .hero-section > button {
+    float: right;
+  }
 }
 .hero-section .intro-section {
   padding: 15px 15px;
 }
+@media screen and (min-width: 768px) {
+  .hero-section .intro-section {
+    clear: both;
+    margin: 10px auto;
+    width: 640px;
+  }
+}
 .hero-section .intro-section h2 {
   font-size: 17px;
   position: relative;
+}
+@media screen and (min-width: 768px) {
+  .hero-section .intro-section h2 {
+    font-size: 18px;
+  }
 }
 .hero-section .intro-section h2:after {
   content: '';
@@ -60,7 +82,7 @@ h1 {
   margin-left: -25%;
   width: 50%;
   background: #111419;
-  opacity: 0.5;
+  opacity: 0.25;
   height: 1px;
 }
 .hero-section .intro-section p {
@@ -94,7 +116,13 @@ h1 {
 .card-container .card {
   width: 100%;
   max-width: 640px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
+}
+@media screen and (min-width: 768px) {
+  .card-container .card {
+    margin: 0 auto 50px;
+    position: relative;
+  }
 }
 .card-container .card .counter {
   display: inline-block;
@@ -104,14 +132,26 @@ h1 {
   position: relative;
   opacity: 0.2;
   line-height: 0;
-  padding-left: 30px;
+}
+@media screen and (min-width: 768px) {
+  .card-container .card .counter {
+    font-size: 72px;
+    position: absolute;
+    left: -100px;
+  }
 }
 .card-container .card .counter:after {
   content: attr(data-content);
   position: absolute;
-  left: 0;
+  left: -30px;
   top: 0px;
   font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .card-container .card .counter:after {
+    left: -40px;
+    font-size: 30px;
+  }
 }
 .card-container .card .image-name {
   display: inline-block;

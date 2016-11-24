@@ -7,6 +7,14 @@ $text-color: #111419;
 @mixin transition($time) {
   transition: all $time cubic-bezier(0.86, 0, 0.07, 1);
 }
+@mixin calculateLeft($attr) {
+  $attr-length: str-length($attr);
+  @if($attr-length % 2 == 0) {
+    left: -30px;
+  } @else {
+    left: -20px;
+  }
+}
 
 html,body{
   height: 100%!important;
@@ -35,7 +43,7 @@ h1{
 
 .main{
   width: 100%;
-  height: 100vh;
+  min-height: 100%;
   max-width: 1200px;
   margin: 0px auto;
   padding: 15px 15px;
@@ -51,14 +59,30 @@ h1{
 }
 .hero-section{
   text-align: center;
+  header{
+    @media screen and (min-width: 768px) {
+      float: left;
+    }
+  }
   > button{
     margin: 15px 0 10px;
+    @media screen and (min-width: 768px) {
+      float: right;
+    }
   }
   .intro-section{
     padding: 15px 15px;
+    @media screen and (min-width: 768px) {
+      clear: both;
+      margin: 10px auto;
+      width: 640px;
+    }
     h2{
       font-size: 17px;
       position: relative;
+      @media screen and (min-width: 768px) {
+        font-size: 18px;
+      }
       &:after{
         content: '';
         position: absolute;
@@ -67,7 +91,7 @@ h1{
         margin-left: -25%;
         width: 50%;
         background: $text-color;
-        opacity: 0.5;
+        opacity: 0.25;
         height: 1px;
       }
     }
@@ -101,7 +125,11 @@ h1{
   .card{
     width: 100%;
     max-width: 640px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+    @media screen and (min-width: 768px) {
+      margin: 0 auto 50px;
+      position: relative;
+    }
     .counter{
       display: inline-block;
       font-size: 34px;
@@ -110,13 +138,22 @@ h1{
       position: relative;
       opacity: 0.2;
       line-height: 0;
-      padding-left: 30px;
+      @media screen and (min-width: 768px) {
+        font-size: 72px;
+        position: absolute;
+        left: -100px;
+      }
       &:after{
         content: attr(data-content);
         position: absolute;
-        left: 0;
+        left: -30px;
+        // @include calculateLeft(attr(data-content));
         top: 0px;
         font-size: 20px;
+        @media screen and (min-width: 768px) {
+          left: -40px;
+          font-size: 30px;
+        }
       }
     }
     .image-name{
