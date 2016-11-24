@@ -124,12 +124,13 @@ h1{
       font-weight: 700;
     }
     .card-image{
+      display: block;
       margin-bottom: 15px;
-      background: $card-background;
-      display: inline-block;
       box-shadow: 0px 15px 30px 0 rgba(17, 20, 25, 0.35);
       opacity: 0.85;
+      background: $card-background;
       cursor: pointer;
+      position: relative;
       @include transition(0.33s);
       &:hover{
         opacity: 1;

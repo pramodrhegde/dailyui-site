@@ -46,7 +46,7 @@
   <script id="cards-template" type="text/x-handlebars-template">
 		{{#data}}
       <div class="card clearfix">
-        <span class="counter" data-content="{{prefixCount day}}"}>{{addOne @index}}</span>
+        <span class="counter" data-content="{{prefixCount day}}"}>{{addOne day}}</span>
         <p class="image-name pull-right">{{name}}</p>
         <img id="{{ref}}"
               src="{{image}}"
