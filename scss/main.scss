@@ -57,6 +57,20 @@ h1{
   background-attachment: scroll;
   background-size: auto;
 }
+.separator{
+  position: relative;
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -25%;
+    width: 50%;
+    background: $text-color;
+    opacity: 0.25;
+    height: 1px;
+  }
+}
 .hero-section{
   text-align: center;
   header{
@@ -80,24 +94,15 @@ h1{
     }
     h2{
       font-size: 17px;
-      position: relative;
       @media screen and (min-width: 768px) {
         font-size: 18px;
-      }
-      &:after{
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        margin-left: -25%;
-        width: 50%;
-        background: $text-color;
-        opacity: 0.25;
-        height: 1px;
       }
     }
     p{
       margin-top: 25px;
+    }
+    .avatar{
+      box-shadow: 0px 5px 30px 0 rgba(17, 20, 25, 0.35);
     }
   }
 }
@@ -120,7 +125,88 @@ h1{
     @include transition(0.2s);
   }
 }
+.about-description{
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  b {
+    color: #333;
+    font-weight: 600;
+  }
+}
 
+.social{
+  position: relative;
+  &.fixed {
+    position: fixed;
+    background: $background-color;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    padding: 15px 0;
+  }
+  p{
+    &.separator{
+      &:after{
+        width: 20%;
+        margin-left: -10%;
+      }
+    }
+  }
+
+  a{
+    font-size: 0;
+    &:before{
+      content: "";
+      margin: 15px 5px;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+    }
+    &.twitter{
+      &:before{
+        background: url('../../images/social/twitter.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    &.facebook{
+      &:before{
+        background: url('../../images/social/facebook.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    &.linkedin{
+      &:before{
+        background: url('../../images/social/linkedin.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    &.pinterest{
+      &:before{
+        background: url('../../images/social/pinterest.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    &.google{
+      &:before{
+        background: url('../../images/social/google.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    &.dribble{
+      &:before{
+        background: url('../../images/social/dribble.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    &.behance{
+      &:before{
+        background: url('../../images/social/behance.png') no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}
 .card-container{
   padding: 15px 15px;
   .card{
@@ -140,6 +226,11 @@ h1{
       opacity: 0.2;
       line-height: 0;
       @media screen and (min-width: 768px) {
+        font-size: 48px;
+        position: absolute;
+        left: -10px;
+      }
+      @media screen and (min-width: 992px) {
         font-size: 72px;
         position: absolute;
         left: -100px;
@@ -202,6 +293,75 @@ h1{
         font-weight: 700;
         text-decoration: underline;
       }
+    }
+  }
+}
+.loader{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 0;
+  background: $background-color;
+  display: none;
+  .circle{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: $primary-color;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  .one{
+    animation: load1 1s infinite ease-in;
+  }
+  .two{
+    animation: load2 1s infinite ease-in;
+  }
+  .three{
+    animation: load3 1s infinite ease-in;
+  }
+  @keyframes load1 {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.1;
+    }
+    75% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 0.1;
+    }
+  }
+  @keyframes load2 {
+    0% {
+      opacity: 0.1;
+    }
+    50% {
+      opacity: 0.75;
+    }
+    75% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 0.1;
+    }
+  }
+  @keyframes load3 {
+    0% {
+      opacity: 0.1;
+    }
+    50% {
+      opacity: 0.1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.1;
     }
   }
 }

@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+  //about click
+  $('#about').on('click', function() {
+    window.location.href="/about"
+  });
   // alert('loaded');
   var ajaxData = {};
   var pageNumber = 1;
@@ -74,6 +79,7 @@ $(document).ready(function() {
       if((pageNumber * 10 === $('.card-container .card').length)) {
         getNextPage(pageNumber);
         pageNumber = pageNumber + 1;
+        $('.loader').fadeIn(300);
       }
     }
   });
@@ -95,6 +101,9 @@ $(document).ready(function() {
     var cardsHtml = cardsTemplate(newResult);
 
     $('.card-container').append(cardsHtml);
+    setTimeout(function() {
+      $('.loader').fadeOut(300);
+    }, 3000);
 
     //handle image fullscreen
     $('.card-image').on('click', function() {

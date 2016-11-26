@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="./vendors/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./dist/css/main.css">
+  <title>About</title>
+</head>
+<body>
+  <div class="main">
+    <div class="hero-section">
+      <header>
+        <h1 class="title">About this project</h1>
+      </header>
+      <button id="home" role="button" class="btn about-btn">
+        Home
+      </button>
+      <div class="intro-section">
+        <p>Hi this is me!</p>
+        <img src="images/avatar.JPG" alt="profile image - pramod" class="avatar img-responsive">
+        <h2 class="separator">I am a UI Designer/Developer from Bengaluru, India.</h2>
+        <p class="about-description">
+          Well to talk about this project first of all I will thank <a href="http://www.dailyui.co/" target="_blank">dailyui.co</a> for helping me to pursue this challenge and complete it successfully.
+          I started this project on <b> 15th June 2016 </b> and finished it by <b> 5th November 2016. </b> you can follow my works here in
+          <a href="https://twitter.com/ppramodrh/status/743571708095782912" target="_blank">twitter</a> day by day. finally I will thank my friends who were been great critiques and helping
+          me improve my works through out the journey.
+        </p>
+        <div class="social">
+          <p class="separator">you can find me in these</p>
+          <a href="https://twitter.com/ppramodrh" class="twitter" target="_blank">twitter</a>
+          <a href="https://in.linkedin.com/in/pramod-hegde-b2b48054" class="linkedin" target="_blank">linkedin</a>
+          <a href="https://www.behance.net/pramodrhegde" class="behance" target="_blank">behance</a>
+          <a href="https://dribbble.com/pramodrhegde" class="dribble" target="_blank">dribble</a>
+          <a href="https://www.facebook.com/ppramodrh" class="facebook" target="_blank">facebook</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-88047678-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <script src="./vendors/jquery/dist/jquery.min.js"></script>
+  <script src="./vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //about click
+      $('#home').on('click', function() {
+        window.location.href="/"
+      });
+    });
+  </script>
+</body>
+</html>
