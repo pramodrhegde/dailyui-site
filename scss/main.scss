@@ -89,11 +89,12 @@ h1{
     padding: 15px 15px;
     @media screen and (min-width: 768px) {
       clear: both;
-      margin: 10px auto;
+      margin: 10px auto 25px;
       width: 640px;
     }
     h2{
       font-size: 17px;
+      margin-top: 10px;
       @media screen and (min-width: 768px) {
         font-size: 18px;
       }
@@ -294,6 +295,24 @@ h1{
         text-decoration: underline;
       }
     }
+  }
+}
+
+.info-text{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25px;
+  max-width: 70%;
+  &:before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: -20px;
+    top: 2px;
+    background: url('../../images/information.svg') no-repeat center center;
+    background-size: contain;
+    display: inline-block;
   }
 }
 .loader{

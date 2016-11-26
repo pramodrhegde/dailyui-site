@@ -77,12 +77,13 @@ h1 {
 @media screen and (min-width: 768px) {
   .hero-section .intro-section {
     clear: both;
-    margin: 10px auto;
+    margin: 10px auto 25px;
     width: 640px;
   }
 }
 .hero-section .intro-section h2 {
   font-size: 17px;
+  margin-top: 10px;
 }
 @media screen and (min-width: 768px) {
   .hero-section .intro-section h2 {
@@ -276,6 +277,24 @@ h1 {
   font-size: 16px;
   font-weight: 700;
   text-decoration: underline;
+}
+
+.info-text {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25px;
+  max-width: 70%;
+}
+.info-text:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -20px;
+  top: 2px;
+  background: url("../../images/information.svg") no-repeat center center;
+  background-size: contain;
+  display: inline-block;
 }
 
 .loader {
