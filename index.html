@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="./vendors/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./dist/css/main.css">
+  <link rel="stylesheet" href="./dist/css/main.min.css">
   <title>Daily UI</title>
 </head>
 <body>
@@ -41,11 +41,11 @@
 
     <div class="social text-center">
       <p class="separator">Get in touch.</p>
-      <a href="https://twitter.com/ppramodrh" class="twitter" target="_blank">twitter</a>
-      <a href="https://in.linkedin.com/in/pramod-hegde-b2b48054" class="linkedin" target="_blank">linkedin</a>
-      <a href="https://www.behance.net/pramodrhegde" class="behance" target="_blank">behance</a>
-      <a href="https://dribbble.com/pramodrhegde" class="dribble" target="_blank">dribble</a>
-      <a href="https://www.facebook.com/ppramodrh" class="facebook" target="_blank">facebook</a>
+      <a href="https://twitter.com/ppramodrh" data-type="twitter" class="twitter" target="_blank">twitter</a>
+      <a href="https://in.linkedin.com/in/pramod-hegde-b2b48054" data-type="linkedin" class="linkedin" target="_blank">linkedin</a>
+      <a href="https://www.behance.net/pramodrhegde" data-type="behance" class="behance" target="_blank">behance</a>
+      <a href="https://dribbble.com/pramodrhegde" data-type="dribble" class="dribble" target="_blank">dribble</a>
+      <a href="https://www.facebook.com/ppramodrh" data-type="facebook" class="facebook" target="_blank">facebook</a>
     </div>
 
     <div class="loader text-center">
@@ -80,6 +80,11 @@
 		{{/data}}
 	</script>
 
-  <script src="./dist/js/main.js"></script>
+  <script src="./dist/js/main.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      initMatrix();
+    });
+  </script>
 </body>
 </html>

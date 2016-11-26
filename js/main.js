@@ -1,9 +1,16 @@
-$(document).ready(function() {
-
+function initMatrix() {
   //about click
   $('#about').on('click', function() {
+    ga('send', 'event', 'homeButtons', 'click', 'aboutButton');
     window.location.href="/about"
   });
+
+  //social media click ga
+  $('.social a').on('click', function() {
+    var $this = $(this);
+    ga('send', 'event', 'homeButtons', 'click', 'Social-Button-' + $this.data('type'));
+  });
+
   // alert('loaded');
   var ajaxData = {};
   var pageNumber = 1;
@@ -35,9 +42,15 @@ $(document).ready(function() {
         var backLink = $('#fullScreenModal').find('a.back-link');
         $(modalImage).attr('src', imageSrc);
         $(backLink).attr('href', '#' + imageId);
+
+        ga('send', 'event', 'imagePreview', 'click', 'Image-' + $this.prev('.image-name').text());
         $('#fullScreenModal').modal('show');
       });
 
+      $('.card-image').on('mouseenter', function() {
+        var $this = $(this);
+        ga('send', 'event', 'imageHover', 'hover', 'Image-' + $this.prev('.image-name').text());
+      });
     },
     error: function(xhr,status,error) {
       console.log(xhr);
@@ -46,6 +59,7 @@ $(document).ready(function() {
 
   //handle back link
   $('.back-link').on('click', function() {
+    ga('send', 'event', 'homeButtons', 'click', 'backButton');
     $('#fullScreenModal').modal('hide');
   });
 
@@ -73,8 +87,8 @@ $(document).ready(function() {
     var scrollTop = $this.scrollTop();
     var windowHeight = $(window).height();
 
-    console.log(offSet);
-    console.log(scrollTop);
+    // console.log(offSet);
+    // console.log(scrollTop);
     if(scrollTop + windowHeight >= offSet) {
       if((pageNumber * 10 === $('.card-container .card').length)) {
         getNextPage(pageNumber);
@@ -92,10 +106,10 @@ $(document).ready(function() {
     console.log(ajaxData.data.length);
     newResult = $.extend(true, newResult, ajaxData);
     newResult.data = newResult.data.reverse();
-    console.log(newResult.data);
+    // console.log(newResult.data);
     var newArr = newResult.data.splice((pageNumber) * 10, 10);
     newResult.data = newArr;
-    console.log(newArr);
+    // console.log(newArr);
     var cardsTemplateScript = $('#cards-template').html();
     var cardsTemplate = Handlebars.compile(cardsTemplateScript);
     var cardsHtml = cardsTemplate(newResult);
@@ -114,7 +128,16 @@ $(document).ready(function() {
       var backLink = $('#fullScreenModal').find('a.back-link');
       $(modalImage).attr('src', imageSrc);
       $(backLink).attr('href', '#' + imageId);
+
+      ga('send', 'event', 'imagePreview', 'click', 'Image-' + $this.prev('.image-name').text());
       $('#fullScreenModal').modal('show');
     });
+
+    $('.card-image').on('mouseenter', function() {
+      var $this = $(this);
+      ga('send', 'event', 'imageHover', 'hover', 'Image-' + $this.prev('.image-name').text());
+    });
+
+    ga('send', 'event', 'pageScroll', 'scroll', (pageNumber * 10/100) * 100 + '%');
   }
-});
+}
